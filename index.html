@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head> 
+      <meta charset="UFT-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Survey Form</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div>
+        <header class="header">
+          <h1 id="title">
+          Build a Survey Form</h1>
+          <div class="center-container">
+          <p id="description">
+          Thank you for take time to help us to improve the plataform</p>
+        </div>
+        </header> 
+      <form class="survey-form" method="post">
+        <fieldset>
+          <label 
+          for="name" 
+          id="name-label"> 
+          Name: </label>
+          <input 
+          id="name" 
+          name="name" 
+          type="text"
+          class="form-control" 
+          required 
+          placeholder="Type your name">
+          <label 
+          for="email" 
+          id="email-label">
+          Email: </label>
+          <input 
+          id="email" 
+          name="email" 
+          type="email"
+          class="form-control" 
+          required 
+          placeholder="type your email">
+          <label 
+          for="number" 
+          id="number-label">
+          Age: </label>
+          <input 
+          id="number" 
+          name="number" 
+          type="number"
+          class="form-control" 
+          min="18" 
+          max="60" 
+          required 
+          placeholder="select your age">
+
+
+        </fieldset>
+        <fieldset>
+          <h3>Select one option</h3>
+          <div class="class-dropdown">
+          <select id="dropdown">
+            <option value="option1">Option 01</option>
+            <option value="option2">Option 02</option>
+            <option value="option3">Option 03</option>
+            <option value="option4">Option 04</option>
+            <option value="option5">Option 05</option>
+          </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="form-group">
+            <h3>Select one option</h3>
+            <label for="radio-box1"> 
+              <input 
+                id="radio-box1" 
+                name="radio-recomend"
+                value="radio-button-01" 
+                type="radio" 
+                class="input-radio"
+              />Radio Button 01
+            </label>
+            <label for="radio-box2">
+              <input
+                id="radio-box2"
+                name="radio-recomend"
+                value="radio-button-02"
+                type="radio"
+                class="input-radio"
+              />Radio Button 02
+            </label>
+          </div>
+        </fieldset> 
+        <fieldset>
+          <div class="form-group">
+            <h3>Select the options</h3>
+            <label for="checkbox-01">
+              <input
+                id="checkbox-01"
+                name="checkbox-recomend"
+                value="checkbox-button-01"
+                type="checkbox"
+                class="input-checkbox"
+              />Check Box Button 01</label>
+            <label for="checkbox-02">
+              <input
+                id="checkbox-02"
+                name="checkbox-recomend"
+                value="checkbox-button-02"
+                type="checkbox"
+                class="input-checkbox"
+              />Check Box Button 02 </label>
+            <label for="checkbox-03">
+              <input
+                id="checkbox-03"
+                name="checkbox-recomend"
+                value="checkbox-button-03"
+                type="checkbox"
+                class="input-checkbox"
+              />Check Box Button 03 </label>
+            <label for="checkbox-04">
+              <input
+                id="checkbox-04"
+                name="checkbox-recomend"
+                value="checkbox-button-04"
+                type="checkbox"
+                class="input-checkbox"
+              />Check Box Button 04 </label>
+          </div>
+          
+        </fieldset>
+        <fieldset>
+          <h3>Input a resume description here</h3>
+          <textarea
+          id="comments"
+          class="input-textarea"
+          name="comments"
+          placeholder="Enter your comments here..."
+          ></textarea>
+          </fieldset>
+          <fieldset>
+            <h3>Upload profile picture</h3>
+            <label 
+            for="file-personal">
+            <input 
+            id="file-personal" 
+            type="file" 
+            name="file"/>
+          </fieldset>
+        </fieldset>
+        <fieldset>
+          <button 
+          type="submit" 
+          id="submit">
+          Send </button>
+        </fieldset>
+      </form>
+  </body>
+  <footer>
+  <h4>All rights reserved</h4>
+  </footer>
+
+  </html> 
