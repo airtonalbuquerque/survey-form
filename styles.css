@@ -64,7 +64,7 @@ footer {
 }
 .input-radio,
 .input-checkbox {
-  display: block;
+  display: flex;
   align-items: center;
   margin-right: 0.625rem;
   min-height: 1.25rem;
